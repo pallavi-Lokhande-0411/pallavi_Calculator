@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Dancing+Script:wght@700&family=Fuzzy+Bubbles:wght@700&family=Indie+Flower&family=Lobster&family=Oswald:wght@200;400&family=Pacifico&family=Smooch&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1 class="name"> CALCULATOR </h1
+    <div class="First-row">
+      <input type="text" value="result" id="result"/>
+      <input class="a" type="button" value="c" onclick="clearScreen()"/>
+    </div>
+
+      <div class="second">
+        <input type="button" value="1" onclick="ram(1)" />
+        <input type="button" value="2" onclick="ram(2)" />
+        <input type="button" value="3" onclick="ram(3)"/>
+        <input type="button" value="+" onclick="ram('+')"/>
+      </div>
+
+      <div class="third">
+        <input type="button" value="4" onclick="ram(4)" />
+        <input type="button" value="5" onclick="ram(5)" />
+        <input type="button" value="6" onclick="ram(6)"/>
+        <input type="button" value="-" onclick="ram('-')"/>
+      </div>
+
+      <div class="forth">
+        <input type="button" value="7" onclick="ram(7)"/>
+        <input type="button" value="8" onclick="ram(8)"/>
+        <input type="button" value="9" onclick="ram(9)"/>
+        <input type="button" value="x" onclick="ram('*')"/>
+      </div>
+
+      <div class="fifth">
+        <input type="button" value="/" onclick="ram('/')"/>
+        <input type="button" value="0" onclick="ram(0)"/>
+        <input type="button" value="." onclick="ram('.')"/>
+        <input type="button" value="=" onclick="result.value = eval(result.value)" />
+      </div>
+</body>
+</html>
+
+
+
+<script type"text/javascript" src="index.js"> </script>
+</body>
+</html>
